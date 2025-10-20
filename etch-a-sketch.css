@@ -1,3 +1,17 @@
-#grid-row {
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
     display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 10vw;
+    box-sizing: border-box;
+    width: min(90vmin, 90vw);
 }

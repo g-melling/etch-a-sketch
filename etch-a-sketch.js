@@ -8,11 +8,13 @@ for (let row = 0; row <16; row++) {
         const square = document.createElement("div");
         square.style.color = "red";
         square.style.border = "black solid 5px";
-        square.style.margin = "10px";
         square.style.display = "flex";
         square.style.alignItems = "center";
         square.style.justifyContent = "center";
+        square.style.flex = "1 0 auto";
+        square.style.aspectRatio = 1/1;
         square.textContent = "O";
+        square.addEventListener = onmouseenter() => backgroundColour = "blue"; 
         gridRow.appendChild(square);
     }
 
