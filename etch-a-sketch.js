@@ -20,7 +20,7 @@ function createGrid(size) {
             square.style.flex = "1 0 auto";
             square.style.aspectRatio = 1/1;
             square.addEventListener('mouseenter', () => {
-                square.style.backgroundColor = "black";
+                square.style.backgroundColor = "rgb(28, 28, 28)";
             });
             gridRow.appendChild(square);
         }
