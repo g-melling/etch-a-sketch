@@ -13,8 +13,9 @@ for (let row = 0; row <16; row++) {
         square.style.justifyContent = "center";
         square.style.flex = "1 0 auto";
         square.style.aspectRatio = 1/1;
-        square.textContent = "O";
-        square.addEventListener = onmouseenter() => backgroundColour = "blue"; 
+        square.addEventListener('mouseenter', () => {
+            square.style.backgroundColor = "red";
+        });
         gridRow.appendChild(square);
     }
 
