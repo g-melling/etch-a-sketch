@@ -8,11 +8,13 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
-    <div id="form-container">
-        <h1>Enter a number (16-100)</h1>
-        <input type="number" id="number-input" placeholder="Enter a number">
-        <button id="number-button">Enter</button>
-    </div>
+
+    <form id="grid-form">
+        <label for="grid-size">Enter a number (16-100): </label>
+        <input type="text" id="grid-size" name="grid-size" min="16" max="100" required>
+        <input type="submit" value="Create New Grid">
+    </form>
+
     <div id="grid-container"></div>
 
     <script src="etch-a-sketch.js"></script>

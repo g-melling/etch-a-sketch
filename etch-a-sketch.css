@@ -1,17 +1,29 @@
 body {
     margin-left: 200px;
     margin-right: 200px;
+    background-color: red;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Blithe', cursive, sans-serif;
+    font-size: 40px;
+    color: rgb(223, 161, 2);
+    text-shadow: 2px 2px 3px rgb(88, 64, 1);
 }
 
-#container {
+form {
     display: flex;
     justify-content: center;
-    height: 100vh;
-    padding: 10vw;
-    box-sizing: border-box;
-    width: min(90vmin, 90vw);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Blithe', cursive, sans-serif;
+    color:rgb(88, 64, 1);
+    font-weight: 700;
+}
+
+#grid-container {
+    border: 5px solid black;
+    border-radius: 18px;
+    background-color: lightgray;
 }
