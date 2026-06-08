@@ -79,14 +79,6 @@ Potential enhancements include:
 * Mobile responsiveness
 * Color picker functionality
 
-## Screenshot
-
-Add a screenshot of your project here:
-
-```text
-images/etch-a-sketch-screenshot.png
-```
-
 ## Acknowledgements
 
 Created as part of **The Odin Project** Foundations Course.
